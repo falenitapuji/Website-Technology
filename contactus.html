@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Contact Us | Web Electronica</title>
+	<meta charset="utf-8" />
+	<style>
+		body{
+			margin: 0;
+			padding: 0;
+			font-family: sans serif;
+			background: url(images/banner.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+
+		#logo {
+			position: absolute;
+			top: 3em;
+			padding: 1em 1em;
+			left: 3em;
+			background: rgba(255, 255, 255, 0.8);
+			text-align: center;
+		}
+
+		.main{
+			position: absolute;
+			border-radius: 5px;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			width: 400px;
+			background: #fff;
+			padding: 40px;
+			box-sizing: border-box;
+			border: 1px solid rgba(0,0,0,.1);
+			box-shadow: 0 5px 10px rgba(0,0,0,.2);
+		}
+
+		.main h2{
+			margin: 0 40px;
+			padding: 15px;
+			color: #0092e6;
+			text-transform: uppercase;
+			text-align: center;
+			font-weight: bold;
+		}
+
+		.main .border{
+			width: 70px;
+			height: 3px;
+			background: #00b8e6;
+			margin: 1px auto;
+		}
+
+		.main input{
+			padding: 10px 0;
+			margin-bottom: 30px;
+		}
+
+		.main textarea{
+			height: 80px;
+			padding: 10px 0;
+			margin-bottom: 40px;
+		}
+
+		.main input,
+		.main textarea{
+			width: 100%;
+			box-sizing: border-box;
+			box-shadow: none;
+			outline: none;
+			border: none;
+			border-bottom: 2px solid #999;
+		}
+
+		.main textarea{
+			margin-bottom: 20px;
+		}
+
+		.main input[type="submit"]{
+			border-bottom: none;
+			cursor: pointer;
+			background: #0092e6;
+			color: #fff;
+			margin-bottom: 0;
+			text-transform: uppercase;
+		}
+
+		.main form div{
+			position: relative;
+		}
+
+		.main input[type="submite"]:hover{
+			background: #00b8e6;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="logo">
+		<h1><a href="project2.html"><img src="images/logo.png" width="auto" height="auto"></a></h1>
+	</div>
+	<div class="main">
+		<h2>Contact Us</h2>
+		<div class="border"></div>
+		<form>
+			<div>
+				<input type="text" name="" required="" placeholder="Name">
+			</div>
+			<div>
+				<input type="email" name="" required="" placeholder="Email">
+			</div>
+			<div>
+				<input type="text" name="" required="" placeholder="Subject">
+			</div>
+			<div>
+				<textarea required="" placeholder="Message"></textarea>
+			</div>
+			<input type="submit" name="" value="Submit">
+		</form>
+	</div>
+</body>
+</html>
